@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+
+     body {
+     	background-color: lightblue;
+     }
+
+
+	</style>
+  <title>LAIBA HAMID</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<%= link_to "HOME", root_path %>
+	<%= link_to "New Post", new_post_path %>
+	<br><h1><center>IM LAIBA HAMID AND THIS IS MY BLOG APPLICATION REVISITED</center></h1>
+	<h1><CENTER> JANAT KI HOOR</CENTER></h1>
+
+<%= yield %>
+
+</body>
+</html>
+
